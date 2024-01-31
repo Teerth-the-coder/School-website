@@ -1,11 +1,60 @@
-iframe{
+iframe {
     width: 100%;
     height: 100vh;
 }
-.campus_life_div{
+
+.campus_life_div {
     border: 1px lightgrey solid;
+    text-align: center;
 }
-.campus_life_div img{
+
+.campus_life_div img {
     width: 100%;
 }
-.campus_life_div
+
+body {
+    height: 500vh;
+}
+
+.new {
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    margin-right: 500px;
+    text-decoration: underline;
+}
+
+.all-content {
+    display: flex;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+}
+
+.movie_head {
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    font: 20px sans-serif;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 5px;
+}
+.all-content{
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+.new-school-canteen-title{
+    font-family: sans-serif;
+    display: inline;
+}
+.paraforcanteen{
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
